@@ -216,8 +216,22 @@
         "player2Id": "tobia",
         "table": "Platte 1",
         "time": "15:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "ian",
+            "player1Sets": 2,
+            "player2Sets": 0,
+            "sets": [
+                {
+                    "player1": 11,
+                    "player2": 6
+                },
+                {
+                    "player1": 11,
+                    "player2": 7
+                }
+            ]
+        }
     },
     {
         "id": 10,
@@ -240,7 +254,7 @@
         "player2Id": "kasi",
         "table": "Platte 1",
         "time": "15:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
