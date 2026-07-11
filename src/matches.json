@@ -762,8 +762,22 @@
         "player2Id": "jan",
         "table": "Platte 2",
         "time": "18:40",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "jan",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 6,
+                    "player2": 11
+                },
+                {
+                    "player1": 7,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 31,
@@ -786,7 +800,7 @@
         "player2Id": "luca",
         "table": "Platte 2",
         "time": "19:00",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
