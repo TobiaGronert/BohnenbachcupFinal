@@ -944,8 +944,22 @@
         "player2Id": "mathis",
         "table": "Platte 1",
         "time": "20:00",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "mathis",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 10,
+                    "player2": 12
+                },
+                {
+                    "player1": 3,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 38,
@@ -968,7 +982,7 @@
         "player2Id": "inga",
         "table": "Platte 1",
         "time": "20:20",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
