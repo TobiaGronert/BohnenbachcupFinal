@@ -1152,8 +1152,26 @@
         "player2Id": null,
         "table": "Platte 1",
         "time": "21:40",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": null,
+            "player1Sets": 0,
+            "player2Sets": 3,
+            "sets": [
+                {
+                    "player1": 11,
+                    "player2": 13
+                },
+                {
+                    "player1": 9,
+                    "player2": 11
+                },
+                {
+                    "player1": 8,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 46,
@@ -1164,7 +1182,7 @@
         "player2Id": null,
         "table": "Platte 2",
         "time": "21:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
