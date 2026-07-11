@@ -1048,8 +1048,22 @@
         "player2Id": null,
         "table": "Platte 1",
         "time": "20:50",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": null,
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 4,
+                    "player2": 11
+                },
+                {
+                    "player1": 10,
+                    "player2": 12
+                }
+            ]
+        }
     },
     {
         "id": 42,
@@ -1072,7 +1086,7 @@
         "player2Id": null,
         "table": "Platte 1",
         "time": "21:10",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
