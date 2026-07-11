@@ -878,8 +878,22 @@
         "player2Id": "kasi",
         "table": "Platte 1",
         "time": "19:40",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "kasi",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 5,
+                    "player2": 11
+                },
+                {
+                    "player1": 7,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 36,
@@ -916,7 +930,7 @@
         "player2Id": "mathis",
         "table": "Platte 1",
         "time": "20:00",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
