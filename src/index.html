@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0C0F14">
+    <title>TT-Turnier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+
+<header>
+    <span class="brand">BC26<span>-</span>Bohnenbachcup 2026</span>
+    <label for="menu-toggle" class="menu-button" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+    </label>
+</header>
+
+<nav class="menu-overlay">
+    <label for="menu-toggle" class="menu-close" aria-label="Menü schließen">×</label>
+
+    <p class="menu-eyebrow">Spielplan</p>
+    <a class="menu-link" href="spielplan.html">
+        <span>Gesamter Spielplan</span><span class="chevron">›</span>
+    </a>
+
+    <p class="menu-eyebrow">Gruppen</p>
+    <a class="menu-link" href="gruppe.html?id=A"><span>Gruppe A</span><span class="chevron">›</span></a>
+    <a class="menu-link" href="gruppe.html?id=B"><span>Gruppe B</span><span class="chevron">›</span></a>
+    <a class="menu-link" href="gruppe.html?id=C"><span>Gruppe C</span><span class="chevron">›</span></a>
+    <a class="menu-link" href="gruppe.html?id=D"><span>Gruppe D</span><span class="chevron">›</span></a>
+
+    <p class="menu-eyebrow">K.O.-Phase</p>
+    <a class="menu-link" href="ko-phase.html"><span>Turnierbaum</span><span class="chevron">›</span></a>
+</nav>
+
+<main class="wrap">
+
+    <section class="block">
+        <p class="eyebrow">Live</p>
+        <div class="live-grid" id="live-section"></div>
+    </section>
+
+    <section class="block">
+        <p class="eyebrow">Nächste Spiele</p>
+        <div id="upcoming-section"></div>
+        <a href="spielplan.html" class="bracket-teaser">
+            <span>Gesamter Spielplan</span><span class="chevron">›</span>
+        </a>
+    </section>
+
+    <section class="block">
+        <p class="eyebrow">Letzte Ergebnisse</p>
+        <div id="results-section"></div>
+    </section>
+
+    <section class="block" id="groups-section-wrapper">
+        <p class="eyebrow">Gruppen</p>
+        <div class="groups-grid" id="groups-section"></div>
+    </section>
+
+    <section class="block hidden" id="bracket-section"></section>
+
+</main>
+
+<script type="module" src="dashboard.js"></script>
+</body>
+</html>

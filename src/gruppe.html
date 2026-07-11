@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0C0F14">
+    <title>Gruppe – TT-Turnier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+
+    <header>
+        <a href="index.html" class="brand">BC26<span>-</span>Bohnenbachcup 2026</a>
+        <label for="menu-toggle" class="menu-button" aria-label="Menü öffnen">
+            <span></span><span></span><span></span>
+        </label>
+    </header>
+
+    <nav class="menu-overlay">
+        <label for="menu-toggle" class="menu-close" aria-label="Menü schließen">×</label>
+
+        <p class="menu-eyebrow">Spielplan</p>
+        <a class="menu-link" href="spielplan.html">
+            <span>Gesamter Spielplan</span><span class="chevron">›</span>
+        </a>
+
+        <p class="menu-eyebrow">Gruppen</p>
+        <a class="menu-link" href="gruppe.html?id=A"><span>Gruppe A</span><span class="chevron">›</span></a>
+        <a class="menu-link" href="gruppe.html?id=B"><span>Gruppe B</span><span class="chevron">›</span></a>
+        <a class="menu-link" href="gruppe.html?id=C"><span>Gruppe C</span><span class="chevron">›</span></a>
+        <a class="menu-link" href="gruppe.html?id=D"><span>Gruppe D</span><span class="chevron">›</span></a>
+
+        <p class="menu-eyebrow">K.O.-Phase</p>
+        <a class="menu-link" href="ko-phase.html"><span>Turnierbaum</span><span class="chevron">›</span></a>
+    </nav>
+
+    <main class="wrap">
+
+        <h1 class="page-title" id="group-title">Gruppe</h1>
+
+        <section class="block">
+            <div class="table-scroll">
+                <table class="standings-table standings-table--full">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Pkt</th>
+                            <th>S-U-N</th>
+                            <th>Sätze</th>
+                            <th>SQ</th>
+                            <th>Bälle</th>
+                            <th>BQ</th>
+                        </tr>
+                    </thead>
+                        </tr>
+                    </thead>
+                    <tbody id="standings-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="block">
+            <p class="eyebrow">Spielplan</p>
+            <div id="schedule-list"></div>
+        </section>
+
+        <section class="block">
+            <p class="eyebrow">Wertung</p>
+
+            <div class="info-card">
+                <p>
+                    Jedes Gruppenspiel geht über 2 Sätze. Ein 2:0 gibt 3 Punkte für den Sieger, ein 1:1-Unentschieden gibt 1 Punkt für beide.
+                </p>
+                <p> Die Tabelle ergibt sich nach folgenden Kriterien:</p>
+
+                <ol>
+                    <li>Anzahl der Punkte</li>
+                    <li>Direkter Vergleich </li>
+                    <li>bei erneutem Gleichstand: die Punktebilanz aus dem direkten Duell</li>
+                    <li>bei weiterem Gleichstand: die Satzbilanz über alle Gruppenspiele</li>
+                </ol>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script type="module" src="gruppe.js"></script>
+</body>
+</html>
