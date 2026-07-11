@@ -1212,7 +1212,25 @@
         "player2Id": null,
         "table": "Platte 1",
         "time": "22:10",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": null,
+            "player1Sets": 0,
+            "player2Sets": 3,
+            "sets": [
+                {
+                    "player1": 8,
+                    "player2": 11
+                },
+                {
+                    "player1": 7,
+                    "player2": 11
+                },
+                {
+                    "player1": 5,
+                    "player2": 11
+                }
+            ]
+        }
     }
 ]
