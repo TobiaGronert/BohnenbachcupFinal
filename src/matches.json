@@ -112,8 +112,22 @@
         "player2Id": "carlo-r",
         "table": "Platte 1",
         "time": "14:40",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "carlo-r",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 4,
+                    "player2": 11
+                },
+                {
+                    "player1": 2,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 6,
@@ -136,7 +150,7 @@
         "player2Id": "henry",
         "table": "Platte 1",
         "time": "15:00",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
