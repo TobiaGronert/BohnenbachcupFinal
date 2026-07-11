@@ -372,8 +372,22 @@
         "player2Id": "inga",
         "table": "Platte 1",
         "time": "16:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": null,
+            "player1Sets": 1,
+            "player2Sets": 1,
+            "sets": [
+                {
+                    "player1": 11,
+                    "player2": 4
+                },
+                {
+                    "player1": 8,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 16,
@@ -396,7 +410,7 @@
         "player2Id": "maria",
         "table": "Platte 1",
         "time": "16:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
