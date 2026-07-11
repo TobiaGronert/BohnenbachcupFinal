@@ -814,8 +814,22 @@
         "player2Id": "luca",
         "table": "Platte 2",
         "time": "19:00",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "luca",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 7,
+                    "player2": 11
+                },
+                {
+                    "player1": 8,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 33,
@@ -826,8 +840,22 @@
         "player2Id": "tobia",
         "table": "Platte 1",
         "time": "19:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": null,
+            "player1Sets": 1,
+            "player2Sets": 1,
+            "sets": [
+                {
+                    "player1": 11,
+                    "player2": 7
+                },
+                {
+                    "player1": 4,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 34,
@@ -838,7 +866,7 @@
         "player2Id": "seb",
         "table": "Platte 2",
         "time": "19:20",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
@@ -850,7 +878,7 @@
         "player2Id": "kasi",
         "table": "Platte 1",
         "time": "19:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
