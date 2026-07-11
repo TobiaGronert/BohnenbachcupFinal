@@ -684,8 +684,22 @@
         "player2Id": "tim",
         "table": "Platte 1",
         "time": "18:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "tim",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 10,
+                    "player2": 12
+                },
+                {
+                    "player1": 3,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 28,
@@ -708,7 +722,7 @@
         "player2Id": "fabian-a",
         "table": "Platte 1",
         "time": "18:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
