@@ -242,8 +242,22 @@
         "player2Id": "seb",
         "table": "Platte 2",
         "time": "15:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "seb",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 3,
+                    "player2": 11
+                },
+                {
+                    "player1": 5,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 11,
@@ -254,8 +268,22 @@
         "player2Id": "kasi",
         "table": "Platte 1",
         "time": "15:40",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "kasi",
+            "player1Sets": 0,
+            "player2Sets": 2,
+            "sets": [
+                {
+                    "player1": 1,
+                    "player2": 11
+                },
+                {
+                    "player1": 2,
+                    "player2": 11
+                }
+            ]
+        }
     },
     {
         "id": 12,
@@ -266,7 +294,7 @@
         "player2Id": "tim",
         "table": "Platte 2",
         "time": "15:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
@@ -278,7 +306,7 @@
         "player2Id": "mathis",
         "table": "Platte 1",
         "time": "16:00",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
