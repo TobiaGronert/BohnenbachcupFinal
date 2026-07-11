@@ -788,8 +788,22 @@
         "player2Id": "luis",
         "table": "Platte 1",
         "time": "19:00",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "lucaLampe",
+            "player1Sets": 2,
+            "player2Sets": 0,
+            "sets": [
+                {
+                    "player1": 13,
+                    "player2": 11
+                },
+                {
+                    "player1": 11,
+                    "player2": 8
+                }
+            ]
+        }
     },
     {
         "id": 32,
@@ -812,7 +826,7 @@
         "player2Id": "tobia",
         "table": "Platte 1",
         "time": "19:20",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
