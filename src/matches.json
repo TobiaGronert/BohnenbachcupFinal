@@ -72,8 +72,22 @@
         "player2Id": "sabrina",
         "table": "Platte 2",
         "time": "14:20",
-        "status": "live",
-        "result": null
+        "status": "gespielt",
+        "result": {
+            "winnerId": "kasi",
+            "player1Sets": 2,
+            "player2Sets": 0,
+            "sets": [
+                {
+                    "player1": 11,
+                    "player2": 2
+                },
+                {
+                    "player1": 11,
+                    "player2": 1
+                }
+            ]
+        }
     },
     {
         "id": 5,
@@ -84,7 +98,7 @@
         "player2Id": "carlo-r",
         "table": "Platte 1",
         "time": "14:40",
-        "status": "geplant",
+        "status": "live",
         "result": null
     },
     {
